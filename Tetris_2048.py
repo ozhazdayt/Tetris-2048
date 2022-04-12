@@ -89,7 +89,7 @@ def start():
                   if not sc:
                      break
                dropped = True
-
+           # rotate
            elif key_typed == "up":
               current_tetromino.reverseTurnTetromino(grid)
 
